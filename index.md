@@ -41,7 +41,7 @@ title: 職務経歴書
 - 概要: 給与明細・取引明細の電子配信サービスにおけるフロントエンド実装を担当（フロントエンド領域を担当）
 - 体制 / 手法: エンジニア10名、デザイナ3名／ウォーターフォール
 - プロセス / ツール: GitHub（Issues / Discussions / PR）で要件・タスク・レビューを一元管理。GitHub ActionsでCI/CD
-- 役割: 新規ページは詳細設計〜実装〜テスト、機能追加は基本設計から一気通貫で担当。顧客との仕様すり合わせを一部対応
+- 役割: 新規ページは詳細設計〜実装〜テスト、機能追加は基本設計から一気通貫で担当。
 - 使用技術: React, TypeScript, React Router, Jotai（既存はRecoil）, react-hook-form, zod, CSS Modules, fetch API
 - 担当機能
   - 給与明細の一覧・詳細（詳細はモーダル表示、詳細からユーザー個別アクションを複数提供）
@@ -68,12 +68,12 @@ title: 職務経歴書
 
 ## 今後取り組みたいこと
 - UIはStorybookで主要ステートの回帰確認、ロジックはVitestでユニットテストという住み分けの明確化
+- VRTの導入を前提とした最適なアーキテクチャの検討と実装
 - zodスキーマの境界値・エラーパス、重要な副作用（エラー時分岐・再送リトライ等）のテスト網羅
-- バグ発生時の回帰テスト資産化（テストを1件追加して再発防止）
 
 ## 補足
 - プロダクト名・社名は匿名表記にしています（要望に応じて開示可）。
 - 雇用形態は各期間とも正社員です。
 
 ## キーワード
-React / TypeScript / React Router / Jotai / Recoil（保守）/ react-hook-form / zod / CSS Modules / fetch API / Vitest / React Testing Library / GitHub / GitHub Actions / ウォーターフォール / B2B / バックオフィスSaaS
+React / TypeScript / React Router / Jotai / Recoil（保守）/ react-hook-form / zod / CSS Modules / fetch API / Vitest / React Testing Library / GitHub / GitHub Actions / ウォーターフォール / B2B / バックオフィスSaaS / VRT / 品質改善・テスト自動化への関心
